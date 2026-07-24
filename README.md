@@ -3,7 +3,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:7c3aed,100:06b6d4&height=220&section=header&text=Hi%20There,%20I'm%20Rushikesh%20%F0%9F%91%8B&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Data%20Engineer%20in%20the%20Making%20%7C%20DevOps%20%26%20Cloud%20Enthusiast&descAlignY=55&descSize=18" width="100%"/>
 
 <a href="https://github.com/DevRushi-engg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=900&color=06B6D4&center=true&vCenter=true&width=650&lines=Final-Year+AI+and+Data+Science+Student;Aspiring+Data+Engineer;DevOps+and+Platform+Engineering+Enthusiast;Turning+messy+data+into+clean+pipelines;Currently+leveling+up+SQL%2C+Airflow+%26+Docker" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=900&color=06B6D4&center=true&vCenter=true&width=650&lines=Final-Year+AI+and+Data+Science+Student;Aspiring+Data+Engineer;DevOps+and+Platform+Engineering+Enthusiast;alt="Typing SVG" />
 </a>
 
 <br/>
