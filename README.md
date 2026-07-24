@@ -53,7 +53,7 @@
 **Exploring**
 <br/>
 <img src="https://img.shields.io/badge/SQL-1a1a1a?style=for-the-badge&logo=postgresql&logoColor=F5B14C" alt=""/>
-<img src="https://img.shields.io/badge/DevOps-1a1a1a?style=for-the-badge&logo=docker&logoColor=2496ED" alt="DevOps"/>
+<img src="https://img.shields.io/badge/DevOps-1a1a1a?style=for-the-badge&logo=docker&logoColor=F5B14C" alt=""/>
 <img src="https://img.shields.io/badge/Linux-1a1a1a?style=for-the-badge&logo=linux&logoColor=FCC624" alt="Linux"/>
 </td>
 </tr>
