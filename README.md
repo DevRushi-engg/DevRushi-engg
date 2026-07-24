@@ -45,7 +45,7 @@
 **Cloud & AI**
 <br/>
 <img src="https://img.shields.io/badge/AWS-1a1a1a?style=for-the-badge&logo=amazonwebservices&logoColor=FF9900" alt=""/>
-<img src="https://img.shields.io/badge/GenAI-1a1a1a?style=for-the-badge&logo=GenAI&logoColor=F5B14C" alt=""/>
+<img src="https://img.shields.io/badge/GenAI-1a1a1a?style=for-the-badge&logo=googlegemini&logoColor=F5B14C" alt=""/>
 
 </td>
 <td valign="top" width="33%">
