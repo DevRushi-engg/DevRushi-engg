@@ -72,42 +72,50 @@
 ## `$ ./run --project featured`
 
 <details open>
-<summary><b>🧠 Forge — Multi-agent website builder</b></summary>
+<summary><b>🏏 IPL_Squad_Builder — Predictive squad-building & auction simulator</b></summary>
 <br/>
 
-12 LangGraph agents collaborating to design, plan, and build full-stack websites from a single prompt, powered by NVIDIA NIM.
+Full-stack predictive squad-building and live auction simulation platform for T20 cricket franchises — real-time budget tracking and dynamic role allocation.
 
-`LangGraph` `Multi-Agent Systems` `NVIDIA NIM`
+`Full-Stack` `Real-time Simulation` `CSS`
+
+[→ View repo](https://github.com/DevRushi-engg/IPL_Squad_Builder)
 
 </details>
 
 <details>
-<summary><b>🎛️ Orbit — Premium todo app</b></summary>
+<summary><b>📄 CoverCraft — AI-powered cover letter generator</b></summary>
 <br/>
 
-A graphite-dark, amber-accented productivity app with a fully custom design system and Framer Motion micro-interactions.
+Serverless AI app that generates tailored cover letters — built during my AWS cloud computing internship (Lambda, API Gateway, Bedrock, DynamoDB).
 
-`React` `Framer Motion` `Design Systems`
+`TypeScript` `AWS Bedrock` `Serverless`
+
+[→ View repo](https://github.com/DevRushi-engg/CoverCraft---AI-Powered-Cover-Letter-Generator)
 
 </details>
 
 <details>
-<summary><b>⚔️ CodeArena — Real-time 1v1 competitive coding platform</b></summary>
+<summary><b>🎓 EduPathFinder — Educational path & career discovery platform</b></summary>
 <br/>
 
-Head-to-head competitive coding built on AWS, from architecture through live matchmaking.
+Helps students explore educational paths, courses, and career options with personalized recommendations and guidance.
 
-`AWS` `WebSockets` `Real-time Systems`
+`JavaScript` `Recommendations`
+
+[→ View repo](https://github.com/DevRushi-engg/edupathfinder)
 
 </details>
 
 <details>
-<summary><b>🚗 Mercedes-Benz Showroom — Luxury automotive experience</b></summary>
+<summary><b>⚙️ CPP-DSA — Daily Data Structures & Algorithms practice</b></summary>
 <br/>
 
-A large-scale, visually driven HTML/CSS/JS showroom site with vehicle, finance, and service pages.
+Ongoing daily commits solving DSA problems in C++ as part of placement preparation.
 
-`HTML/CSS/JS` `Frontend Design`
+`C++` `DSA`
+
+[→ View repo](https://github.com/DevRushi-engg/CPP-DSA)
 
 </details>
 
