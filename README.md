@@ -1,16 +1,32 @@
-## Hi there 👋
+name: Generate Snake Animation
 
-<!--
-**DevRushi-engg/DevRushi-engg** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+on:
+  schedule:
+    - cron: "0 0 * * *"     # runs daily at midnight UTC
+  workflow_dispatch: {}      # lets you trigger it manually
+  push:
+    branches: [ main ]
 
-Here are some ideas to get you started:
+permissions:
+  contents: write
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate snake SVGs
+        uses: Platane/snk@v3
+        id: snake
+        with:
+          github_user_name: DevRushi-engg
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - name: Push SVGs to the "output" branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
