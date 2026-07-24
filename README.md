@@ -15,12 +15,11 @@
 ```bash
 ┌─[rushikesh@github]─[~]
 │
-├── role         : Final-Year AI & Data Science Engineer
-├── institute     : JITMR Nashik (SPPU) · CGPA 8.5/10
-├── graduating    : May 2027
-├── focus_now     : Placement prep — DSA, Full-Stack JS, AWS
-├── stack         : LangGraph · AWS (Lambda/Bedrock/DynamoDB) · React · Node
-└── currently     : Building multi-agent systems that ship full websites
+├── role          : Final-Year AI & Data Science Engineer
+├── institute     : JITMR Nashik (SPPU)
+├── graduating    : 2027
+├── focus_now     : Placement prep — DSA, Full-Stack, Python, AWS, Devops
+└── currently     : Preparing for placement and learning technologies
 ```
 
 <br/>
@@ -37,7 +36,6 @@
 
 **Core**
 <br/>
-<img src="https://img.shields.io/badge/JavaScript-1a1a1a?style=for-the-badge&logo=javascript&logoColor=F5B14C" alt=""/>
 <img src="https://img.shields.io/badge/Python-1a1a1a?style=for-the-badge&logo=python&logoColor=F5B14C" alt=""/>
 <img src="https://img.shields.io/badge/C++-1a1a1a?style=for-the-badge&logo=cplusplus&logoColor=F5B14C" alt=""/>
 
@@ -46,19 +44,16 @@
 
 **Cloud & AI**
 <br/>
-<img src="https://img.shields.io/badge/AWS-1a1a1a?style=for-the-badge&logo=amazonaws&logoColor=F5B14C" alt=""/>
-<img src="https://img.shields.io/badge/LangGraph-1a1a1a?style=for-the-badge&logo=langchain&logoColor=F5B14C" alt=""/>
-<img src="https://img.shields.io/badge/DynamoDB-1a1a1a?style=for-the-badge&logo=amazondynamodb&logoColor=F5B14C" alt=""/>
+<img src="https://img.shields.io/badge/AWS-1a1a1a?style=for-the-badge&logo=amazonwebservices&logoColor=FF9900" alt=""/><img src="https://img.shields.io/badge/GenAI-1a1a1a?style=for-the-badge&logo=openai&logoColor=74AA9C" alt=""/>
 
 </td>
 <td valign="top" width="33%">
 
 **Exploring**
 <br/>
-<img src="https://img.shields.io/badge/React-1a1a1a?style=for-the-badge&logo=react&logoColor=F5B14C" alt=""/>
-<img src="https://img.shields.io/badge/Node.js-1a1a1a?style=for-the-badge&logo=nodedotjs&logoColor=F5B14C" alt=""/>
 <img src="https://img.shields.io/badge/SQL-1a1a1a?style=for-the-badge&logo=postgresql&logoColor=F5B14C" alt=""/>
-
+<img src="https://img.shields.io/badge/DevOps-1a1a1a?style=for-the-badge&logo=docker&logoColor=2496ED" alt="DevOps"/>
+<img src="https://img.shields.io/badge/Linux-1a1a1a?style=for-the-badge&logo=linux&logoColor=FCC624" alt="Linux"/>
 </td>
 </tr>
 </table>
