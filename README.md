@@ -141,7 +141,6 @@ Ongoing daily commits solving DSA problems in C++ as part of placement preparati
 <div align="center">
 
 <!-- Swap these for your real links -->
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-1a1a1a?style=for-the-badge&logo=linkedin&logoColor=F5B14C)](https://linkedin.com/in/YOUR-HANDLE)
-[![Twitter](https://img.shields.io/badge/X-1a1a1a?style=for-the-badge&logo=x&logoColor=F5B14C)](https://twitter.com/YOUR-HANDLE)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-1a1a1a?style=for-the-badge&logo=linkedin&logoColor=F5B14C)](https://www.linkedin.com/in/rushikesh-gurav/)
 
 </div>
