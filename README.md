@@ -18,8 +18,8 @@
 ├── role          : Final-Year AI & Data Science Engineer
 ├── institute     : JITMR Nashik (SPPU)
 ├── graduating    : 2027
-├── focus_now     : Placement prep — DSA, Full-Stack, Python, AWS, Data Engineer, Devops
-└── currently     : Preparing for placement and learning technologies
+├── focus_now     : Placement prep — DSA, Python, AWS, Devops, Cloud
+└── currently     : Working towards DevOps & Cloud
 ```
 
 <br/>
