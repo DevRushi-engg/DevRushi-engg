@@ -121,6 +121,14 @@ Ongoing daily commits solving DSA problems in C++ as part of placement preparati
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:2b2b2b,100:1a1a1a&height=2&width=100%25"/>
 </div>
 
+## `$ cat certificates.log`
+
+<div align="center">
+
+[![Boot.dev Learn Linux certificate](https://qvault-webapp-dynamic-assets.storage.googleapis.com/certificates/ab51bdf2-2b46-4dc9-b3fd-28ad685da1c1.jpeg?v=1786789280)](https://www.boot.dev/certificates/ab51bdf2-2b46-4dc9-b3fd-28ad685da1c1)
+
+</div>
+
 ## `$ tail -f contributions.log`
 
 <div align="center">
