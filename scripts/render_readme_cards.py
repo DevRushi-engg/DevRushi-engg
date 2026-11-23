@@ -199,8 +199,10 @@ def hero():
   </g>
 </g>
 """
-    write("hero.svg", svg(W, h, body, ["serif", "serif-i", "sans", "mono"],
-                          "Rushikesh Gurav. Engineer working with AI agents, Cloud, and DevOps. Creating practical software that solves real problems."))
+    svg_content = svg(W, h, body, ["serif", "serif-i", "sans", "mono"],
+                      "Rushikesh Gurav. Engineer working with AI agents, Cloud, and DevOps. Creating practical software that solves real problems.")
+    write("hero.svg", svg_content)
+    write("hero-card.svg", svg_content)
 
 
 # ---- 2 · World Metric Tiles ---------------------------------------------------
