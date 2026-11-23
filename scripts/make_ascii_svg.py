@@ -20,10 +20,10 @@ CELL_H = CELL_W * 15 / 8
 ROWS = round(COLS * 8 / 15)
 RAMP = " .:-=+*#%@"  # light -> dark; leading space clears white background
 
-CONTRAST = 1.18
-BRIGHTNESS = 1.02
-GAMMA = 1.08
-WHITE_FLOOR = 0.85    # luminance above this threshold becomes blank space
+CONTRAST = 1.15
+BRIGHTNESS = 1.0
+GAMMA = 0.88
+WHITE_FLOOR = 0.92    # only background becomes blank space; subject retains full character coverage
 
 PAD = 20
 TITLEBAR_H = 30
@@ -93,7 +93,7 @@ def generate():
         delay = ry * STAGGER
         safe = html.escape(line)
         text = (f'<text xml:space="preserve" x="{PAD}" y="{y:.1f}" fill="{INK}" '
-                f'font-size="{font_size:.1f}" textLength="{ART_W}" lengthAdjust="spacing">{safe}</text>')
+                f'font-size="{font_size:.1f}" font-weight="700" textLength="{ART_W}" lengthAdjust="spacing">{safe}</text>')
 
         if STATIC:
             parts.append(text)

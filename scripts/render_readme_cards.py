@@ -155,7 +155,7 @@ def hero():
         for i, (y, txt) in enumerate(rows):
             portrait.append(
                 f'<text class="rt" style="animation-delay:{0.25 + i * 0.026:.3f}s" '
-                f'xml:space="preserve" x="20" y="{y}" fill="url(#portrait-grad)" font-size="8.8" '
+                f'xml:space="preserve" x="20" y="{y}" fill="url(#portrait-grad)" font-size="8.8" font-weight="700" '
                 f'textLength="800" lengthAdjust="spacing">{txt}</text>'
             )
 
@@ -172,10 +172,10 @@ def hero():
       keyTimes="0;.45;1" dur="7s" begin="1.6s" repeatCount="indefinite"/>
   </linearGradient>
   <linearGradient id="portrait-grad" x1="0" y1="0" x2="0" y2="1">
-    <stop offset="0%" stop-color="#3d050f"/>
-    <stop offset="35%" stop-color="{MAROON}"/>
-    <stop offset="70%" stop-color="{CRIMSON}"/>
-    <stop offset="100%" stop-color="#580816"/>
+    <stop offset="0%" stop-color="#140205"/>
+    <stop offset="30%" stop-color="#2d030b"/>
+    <stop offset="70%" stop-color="#4d0613"/>
+    <stop offset="100%" stop-color="#1c0206"/>
   </linearGradient>
   <linearGradient id="scanbeam-grad" x1="0" y1="0" x2="0" y2="1">
     <stop offset="0%" stop-color="{GOLD}" stop-opacity="0"/>
