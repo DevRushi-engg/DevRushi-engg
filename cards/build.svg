@@ -19,7 +19,6 @@
 @keyframes roll{from{transform:translateY(60px)}to{transform:none}}
 @keyframes sheen{0%{transform:translateX(-260px) skewX(-20deg)}22%,100%{transform:translateX(420px) skewX(-20deg)}}
 @keyframes ring{0%{opacity:.7;transform:scale(.2)}100%{opacity:0;transform:scale(2.4)}}
-@keyframes scanlaser{0%{transform:translateY(-80px);opacity:0}8%{opacity:.85}38%{transform:translateY(860px);opacity:.85}42%,100%{transform:translateY(860px);opacity:0}}
 @keyframes rowtype{0%{opacity:0;transform:translateX(-14px)}60%{opacity:.9}100%{opacity:1;transform:none}}
 .ti{opacity:0;transform-box:fill-box;transform-origin:50% 60%;animation:tilein 1.1s cubic-bezier(.2,.8,.2,1) both}
 .sl{opacity:0;transform-box:fill-box;animation:slidein .6s cubic-bezier(.2,.7,.2,1) both}
@@ -27,9 +26,8 @@
 .ro{transform-box:fill-box;animation:roll .8s cubic-bezier(.15,.8,.2,1) both}
 .sh{animation:sheen 5s ease-in-out infinite}
 .rg{opacity:0;transform-box:fill-box;transform-origin:center;animation:ring 1s ease-out both}
-.scan-beam{animation:scanlaser 4.6s cubic-bezier(.3,0,.2,1) infinite}
 .rt{opacity:0;animation:rowtype .4s ease-out both}
-@media (prefers-reduced-motion: reduce){.r,.f,.g,.p,.live,.n,.nu,.ti,.sl,.ai,.ro,.rg,.rt{animation:none!important;opacity:1!important;transform:none!important}.sh,.rg,.scan-beam{display:none}}
+@media (prefers-reduced-motion: reduce){.r,.f,.g,.p,.live,.n,.nu,.ti,.sl,.ai,.ro,.rg,.rt{animation:none!important;opacity:1!important;transform:none!important}.sh,.rg{display:none}}
 </style>
 <defs>
   <clipPath id="card-build"><rect width="285.3333333333333" height="210" rx="14"/></clipPath>
