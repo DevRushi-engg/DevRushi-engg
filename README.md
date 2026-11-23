@@ -9,8 +9,6 @@
 <a href="https://github.com/DevRushi-engg/AuditPilot"><img src="./cards/build.svg" width="33.333%" alt="AI &amp; AGENTS: Multi-Agent Copilot" /></a><a href="https://github.com/DevRushi-engg/IaC-Sentinal"><img src="./cards/brand.svg" width="33.333%" alt="CLOUD &amp; DEVOPS: Zero-Drift IaC" /></a><a href="https://github.com/DevRushi-engg?tab=repositories"><img src="./cards/learn.svg" width="33.333%" alt="SYSTEMS &amp; DSA: 850+ contributions" /></a><br>
 <picture><source media="(prefers-color-scheme: dark)" srcset="./cards/title-coding-dark.svg" /><img src="./cards/title-coding-light.svg" width="100%" alt="Featured Projects" /></picture><br>
 <a href="https://github.com/DevRushi-engg/AuditPilot"><img src="./cards/repo-auditpilot.svg" width="33.333%" alt="AuditPilot" /></a><a href="https://github.com/DevRushi-engg/IaC-Sentinal"><img src="./cards/repo-iac-sentinal.svg" width="33.333%" alt="IaC-Sentinal" /></a><a href="https://github.com/DevRushi-engg/CoverCraft---AI-Powered-Cover-Letter-Generator"><img src="./cards/repo-covercraft.svg" width="33.333%" alt="CoverCraft" /></a>
+<br>
+<a href="https://www.linkedin.com/in/rushikesh-gurav/"><img src="./cards/link-linkedin.svg" height="42" alt="LinkedIn" /></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/DevRushi-engg"><img src="./cards/link-github.svg" height="42" alt="GitHub" /></a>
 </div>
-
-<p align="center">
-<a href="https://linkedin.com/in/rushikesh-gurav">linkedin</a> &nbsp;/&nbsp; <a href="https://github.com/DevRushi-engg">github</a>
-</p>
