@@ -13,17 +13,17 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 SRC = sys.argv[1] if len(sys.argv) > 1 else os.path.join(HERE, "..", "source-prepped.png")
 OUT = sys.argv[2] if len(sys.argv) > 2 else os.path.join(HERE, "..", "rushi-ascii.svg")
 
-COLS = int(os.environ.get("COLS", 180))
+COLS = int(os.environ.get("COLS", 148))
 ART_W_TARGET = 800
 CELL_W = ART_W_TARGET / COLS
 CELL_H = CELL_W * 15 / 8
 ROWS = round(COLS * 8 / 15)
-RAMP = " .`:-=+*cs#%@"  # light -> dark; leading space clears white background
+RAMP = " .:-=+*#%@"  # light -> dark; leading space clears white background
 
-CONTRAST = 1.05
-BRIGHTNESS = 1.0
-GAMMA = 1.15
-WHITE_FLOOR = 0.82    # luminance above this threshold becomes blank space
+CONTRAST = 1.18
+BRIGHTNESS = 1.02
+GAMMA = 1.08
+WHITE_FLOOR = 0.85    # luminance above this threshold becomes blank space
 
 PAD = 20
 TITLEBAR_H = 30
@@ -38,7 +38,7 @@ BG2 = "#111722"
 FRAME = "#30363d"
 TITLE_TEXT = "#7d8590"
 INK = "#e6edf3"
-CURSOR = "#e6edf3"
+CURSOR = "#c59b27"
 
 ROW_DUR = 5.8 / ROWS
 STAGGER = ROW_DUR
@@ -119,7 +119,7 @@ def generate():
     parts.append(f'<text x="{PAD}" y="{status_y:.1f}" fill="{TITLE_TEXT}" font-size="13">'
                  f'rushi@github:~$ whoami <tspan fill="{INK}">Rushikesh Gurav</tspan></text>')
     status_chars = len("rushi@github:~$ whoami Rushikesh Gurav ")
-    parts.append(f'<rect x="{PAD + status_chars * 13 * 0.6:.1f}" y="{status_y-12:.1f}" width="8" height="14" fill="{INK}">'
+    parts.append(f'<rect x="{PAD + status_chars * 13 * 0.6:.1f}" y="{status_y-12:.1f}" width="8" height="14" fill="{CURSOR}">'
                  f'<animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.51;1" '
                  f'dur="1s" repeatCount="indefinite"/></rect>')
 

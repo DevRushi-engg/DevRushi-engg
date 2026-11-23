@@ -69,13 +69,17 @@ BASE_CSS = """
 @keyframes roll{from{transform:translateY(60px)}to{transform:none}}
 @keyframes sheen{0%{transform:translateX(-260px) skewX(-20deg)}22%,100%{transform:translateX(420px) skewX(-20deg)}}
 @keyframes ring{0%{opacity:.7;transform:scale(.2)}100%{opacity:0;transform:scale(2.4)}}
+@keyframes scanlaser{0%{transform:translateY(-80px);opacity:0}8%{opacity:.85}38%{transform:translateY(860px);opacity:.85}42%,100%{transform:translateY(860px);opacity:0}}
+@keyframes rowtype{0%{opacity:0;transform:translateX(-14px)}60%{opacity:.9}100%{opacity:1;transform:none}}
 .ti{opacity:0;transform-box:fill-box;transform-origin:50% 60%;animation:tilein 1.1s cubic-bezier(.2,.8,.2,1) both}
 .sl{opacity:0;transform-box:fill-box;animation:slidein .6s cubic-bezier(.2,.7,.2,1) both}
 .ai{opacity:0;transform-box:fill-box;animation:arrowin .7s cubic-bezier(.2,.7,.2,1) both}
 .ro{transform-box:fill-box;animation:roll .8s cubic-bezier(.15,.8,.2,1) both}
 .sh{animation:sheen 5s ease-in-out infinite}
 .rg{opacity:0;transform-box:fill-box;transform-origin:center;animation:ring 1s ease-out both}
-@media (prefers-reduced-motion: reduce){.r,.f,.g,.p,.live,.n,.nu,.ti,.sl,.ai,.ro,.rg{animation:none!important;opacity:1!important;transform:none!important}.sh,.rg{display:none}}
+.scan-beam{animation:scanlaser 4.6s cubic-bezier(.3,0,.2,1) infinite}
+.rt{opacity:0;animation:rowtype .4s ease-out both}
+@media (prefers-reduced-motion: reduce){.r,.f,.g,.p,.live,.n,.nu,.ti,.sl,.ai,.ro,.rg,.rt{animation:none!important;opacity:1!important;transform:none!important}.sh,.rg,.scan-beam{display:none}}
 """
 
 
@@ -150,8 +154,8 @@ def hero():
         rows = re.findall(r'<text xml:space="preserve"[^>]*\by="([\d.]+)"[^>]*>(.*?)</text>', src, re.S)
         for i, (y, txt) in enumerate(rows):
             portrait.append(
-                f'<text class="f" style="animation-delay:{0.25 + i * 0.018:.3f}s;animation-duration:.35s" '
-                f'xml:space="preserve" x="20" y="{y}" fill="{INK}" font-size="7.2" '
+                f'<text class="rt" style="animation-delay:{0.25 + i * 0.026:.3f}s" '
+                f'xml:space="preserve" x="20" y="{y}" fill="url(#portrait-grad)" font-size="8.8" '
                 f'textLength="800" lengthAdjust="spacing">{txt}</text>'
             )
 
@@ -167,6 +171,20 @@ def hero():
     <animateTransform attributeName="gradientTransform" type="translate" values="-600 0;600 0;600 0"
       keyTimes="0;.45;1" dur="7s" begin="1.6s" repeatCount="indefinite"/>
   </linearGradient>
+  <linearGradient id="portrait-grad" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#3d050f"/>
+    <stop offset="35%" stop-color="{MAROON}"/>
+    <stop offset="70%" stop-color="{CRIMSON}"/>
+    <stop offset="100%" stop-color="#580816"/>
+  </linearGradient>
+  <linearGradient id="scanbeam-grad" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="{GOLD}" stop-opacity="0"/>
+    <stop offset="50%" stop-color="{GOLD}" stop-opacity="0.55"/>
+    <stop offset="100%" stop-color="{MAROON}" stop-opacity="0"/>
+  </linearGradient>
+  <clipPath id="portrait-clip">
+    <rect x="0" y="0" width="840" height="840" rx="12"/>
+  </clipPath>
 </defs>
 <rect width="{W}" height="{h}" rx="14" fill="{PAPER}" stroke="{RULE}" stroke-width="1"/>
 <g class="f" {d(0)}>
@@ -182,8 +200,11 @@ def hero():
   <text x="48" y="396" font-family="{MONO}" font-size="13" fill="{INK}">linkedin.com/in/rushikesh-gurav</text>
   <text class="nu" x="305" y="396" font-family="{MONO}" font-size="13" fill="{MAROON}">&#8599;</text>
 </g>
-<g transform="translate(520 46) scale({s}) translate(-20 -37)" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
-  {''.join(portrait)}
+<g transform="translate(520 42) scale({s}) translate(-20 -35)" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+  <g clip-path="url(#portrait-clip)">
+    {''.join(portrait)}
+    <rect class="scan-beam" x="0" y="0" width="840" height="90" fill="url(#scanbeam-grad)"/>
+  </g>
 </g>
 """
     write("hero.svg", svg(W, h, body, ["serif", "serif-i", "sans", "mono"],

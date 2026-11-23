@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Prepare the portrait image for clean ASCII conversion:
+Prepare the portrait image for clean, high-contrast ASCII conversion:
   1. Remove background by detecting the uniform background color and thresholding
   2. Enhance contrast, sharpness, and edge details so facial contours and glasses stay sharp
   3. Ensure background is pure white (255) so it maps to blank spaces in ASCII output
@@ -28,19 +28,19 @@ def prep():
     dist = np.linalg.norm(arr - bg_color, axis=-1)
     
     # Smooth mask slightly to prevent harsh stepped artifacts
-    raw_mask = (dist > 18.0).astype(np.float32)
-    mask_im = Image.fromarray((raw_mask * 255).astype(np.uint8)).filter(ImageFilter.GaussianBlur(radius=1.0))
+    raw_mask = (dist > 16.0).astype(np.float32)
+    mask_im = Image.fromarray((raw_mask * 255).astype(np.uint8)).filter(ImageFilter.GaussianBlur(radius=1.2))
     mask = np.array(mask_im).astype(np.float32) / 255.0
 
-    # Grayscale image
+    # Grayscale image with enhanced local contrast & sharpness
     gray_im = img.convert("L")
-    # Enhance local contrast and sharpness
-    gray_im = ImageOps.autocontrast(gray_im, cutoff=2)
-    gray_im = gray_im.filter(ImageFilter.UnsharpMask(radius=2, percent=130, threshold=3))
+    gray_im = ImageOps.autocontrast(gray_im, cutoff=1)
+    gray_im = gray_im.filter(ImageFilter.UnsharpMask(radius=2.5, percent=160, threshold=2))
     gray = np.array(gray_im).astype(np.float32)
 
     # Tone stretch: push lighter face areas slightly brighter so sparser ASCII chars are chosen
-    p_low, p_high = np.percentile(gray[mask > 0.5], (2, 95))
+    p_low = np.percentile(gray[mask > 0.5], 2)
+    p_high = np.percentile(gray[mask > 0.5], 96)
     tone = np.clip((gray - p_low) / (p_high - p_low + 1e-5), 0, 1) * 255.0
 
     # Subject onto pure white background
