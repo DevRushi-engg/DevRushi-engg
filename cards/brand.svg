@@ -42,7 +42,7 @@
     <circle class="rg" style="animation-delay:3.85s" cx="245.33333333333331" cy="170" r="60" fill="none" stroke="#4a0b16" stroke-opacity=".5" stroke-width="2"/>
     <rect class="sh" style="animation-delay:4.75s" x="0" y="-20" width="90" height="250" fill="url(#gl-brand)" transform="translate(-260 0)"/>
   </g>
-  <text class="sl" style="animation-delay:3.70s" x="24" y="38" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" letter-spacing="1.2" fill="#4a0b16">CLOUD & DEVOPS</text>
+  <text class="sl" style="animation-delay:3.70s" x="24" y="38" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" letter-spacing="1.2" fill="#4a0b16">CLOUD &amp; DEVOPS</text>
   <g class="ai" style="animation-delay:3.85s"><text class="n" style="animation-delay:4.65s" x="250" y="38" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" fill="#4a0b16">&#8594;</text></g>
   <g clip-path="url(#slot-brand)"><g class="ro" style="animation-delay:3.80s">
     <text x="22" y="110" font-family="'Instrument Serif', Georgia, serif" font-size="33" fill="#4a0b16">Zero-Drift <tspan font-style="italic" font-size="0.65em">IaC</tspan></text>
