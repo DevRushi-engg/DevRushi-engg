@@ -203,6 +203,7 @@ def hero():
                       "Rushikesh Gurav. Engineer working with AI agents, Cloud, and DevOps.")
     write("hero.svg", svg_content)
     write("hero-card.svg", svg_content)
+    write("hero-header.svg", svg_content)
 
 
 # ---- 2 · World Metric Tiles ---------------------------------------------------
