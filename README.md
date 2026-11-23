@@ -3,7 +3,7 @@
      Spacing is baked into the SVGs, so keep this block free of blank lines and keep the cards in
      a row on one line with no spaces between them. -->
 <div align="center">
-<a href="https://www.linkedin.com/in/rushikesh-gurav/"><img src="./cards/hero.svg" width="100%" alt="Rushikesh Gurav. Engineer working with AI agents, Cloud, and DevOps." /></a><br>
+<a href="https://www.linkedin.com/in/rushikesh-gurav/"><img src="./cards/hero.svg" width="100%" alt="Rushikesh Gurav. Engineer working with AI agents, Cloud, and DevOps. " /></a><br>
 <img src="./cards/heatmap.svg" width="100%" alt="Rushikesh's contribution graph, in royal maroon, refreshed daily" /><br>
 <img src="./cards/activity.svg" width="100%" alt="Contributions in the last 12 months, by month, with streak and busiest day" /><br>
 <a href="https://github.com/DevRushi-engg/AuditPilot"><img src="./cards/build.svg" width="33.333%" alt="AI &amp; AGENTS: Multi-Agent Copilot" /></a><a href="https://github.com/DevRushi-engg/IaC-Sentinal"><img src="./cards/brand.svg" width="33.333%" alt="CLOUD &amp; DEVOPS: Zero-Drift IaC" /></a><a href="https://github.com/DevRushi-engg?tab=repositories"><img src="./cards/learn.svg" width="33.333%" alt="SYSTEMS &amp; DSA: 850+ contributions" /></a><br>
