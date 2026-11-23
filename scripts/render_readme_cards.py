@@ -176,7 +176,7 @@ def hero():
 <text class="r" {d(0.15)} x="44" y="190" font-family="{SERIF}" font-size="108" letter-spacing="-2.5" fill="{INK}">Rushikesh</text>
 <text class="r" {d(0.3)} x="44" y="290" font-family="{SERIF}" font-style="italic" font-size="108" letter-spacing="-2.5" fill="url(#shine)">Gurav</text>
 <g class="r" {d(0.55)}>
-  {text_lines(48, 338, ["Building autonomous AI agents, resilient cloud infrastructure,", "and solving daily Data Structures & Algorithms."], 27, f'font-family="{SANS}" font-size="18" fill="{INK_SOFT}"')}
+  {text_lines(48, 338, ["Engineer working with AI agents, Cloud, and DevOps.", "Creating practical software that solves real problems."], 27, f'font-family="{SANS}" font-size="18" fill="{INK_SOFT}"')}
 </g>
 <g class="f" {d(0.8)}>
   <text x="48" y="396" font-family="{MONO}" font-size="13" fill="{INK}">linkedin.com/in/rushikesh-gurav</text>
@@ -187,7 +187,7 @@ def hero():
 </g>
 """
     write("hero.svg", svg(W, h, body, ["serif", "serif-i", "sans", "mono"],
-                          "Rushikesh Gurav. Final-Year AI & Data Science Engineer. Building autonomous AI agents, resilient cloud infrastructure, and solving daily DSA."))
+                          "Rushikesh Gurav. Engineer working with AI agents, Cloud, and DevOps. Creating practical software that solves real problems."))
 
 
 # ---- 2 · World Metric Tiles ---------------------------------------------------
