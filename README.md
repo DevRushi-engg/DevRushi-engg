@@ -10,5 +10,5 @@
 <picture><source media="(prefers-color-scheme: dark)" srcset="./cards/title-coding-dark.svg" /><img src="./cards/title-coding-light.svg" width="100%" alt="Featured Projects" /></picture><br>
 <a href="https://github.com/DevRushi-engg/AuditPilot"><img src="./cards/repo-auditpilot.svg" width="33.333%" alt="AuditPilot" /></a><a href="https://github.com/DevRushi-engg/IaC-Sentinal"><img src="./cards/repo-iac-sentinal.svg" width="33.333%" alt="IaC-Sentinal" /></a><a href="https://github.com/DevRushi-engg/CoverCraft---AI-Powered-Cover-Letter-Generator"><img src="./cards/repo-covercraft.svg" width="33.333%" alt="CoverCraft" /></a>
 <br>
-<a href="https://www.linkedin.com/in/rushikesh-gurav/"><img src="./cards/badge-linkedin.svg" height="26" alt="LinkedIn" /></a>&nbsp;&nbsp;<a href="https://builder.aws.com/community/@rushi984"><img src="./cards/badge-aws.svg" height="26" alt="AWS Community" /></a>
+<a href="https://www.linkedin.com/in/rushikesh-gurav/"><img src="./cards/badge-linkedin.svg" height="26" alt="LinkedIn" /></a>&nbsp;&nbsp;<a href="https://builder.aws.com/community/@rushi984"><img src="./cards/badge-aws-profile.svg" height="26" alt="AWS" /></a>
 </div>
