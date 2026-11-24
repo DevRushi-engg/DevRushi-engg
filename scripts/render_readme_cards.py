@@ -367,7 +367,7 @@ def heatmap(data):
     h = gy + 7 * step + 44
     body = f"""
 <rect width="{W}" height="{h}" rx="14" fill="{PAPER}" stroke="{RULE}" stroke-width="1"/>
-<text class="r" {d(0.8)} x="42" y="62" font-family="{SERIF}" font-size="34" fill="{INK}">Every day, <tspan font-style="italic" fill="{MAROON}">in royal maroon</tspan></text>
+<text class="r" {d(0.8)} x="42" y="62" font-family="{SERIF}" font-size="34" fill="{INK}">Contributions, <tspan font-style="italic" fill="{MAROON}">over time</tspan></text>
 <text class="f" {d(0.8)} x="{right}" y="60" text-anchor="end" font-family="{MONO}" font-size="12" letter-spacing="1" fill="{MUTED}">REFRESHED DAILY</text>
 {''.join(cells)}
 <g class="f" {d(2.4)}>{labels}
@@ -377,6 +377,8 @@ def heatmap(data):
 """
     write("heatmap.svg", svg(W, h, body, ["serif", "serif-i", "mono"],
                              f'Contribution graph: {data["total_contributions"]:,} contributions in the last year'))
+    write("heatmap-graph.svg", svg(W, h, body, ["serif", "serif-i", "mono"],
+                                   f'Contribution graph: {data["total_contributions"]:,} contributions in the last year'))
 
 
 # ---- 5 · Featured Repositories ------------------------------------------------

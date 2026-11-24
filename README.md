@@ -4,7 +4,7 @@
      a row on one line with no spaces between them. -->
 <div align="center">
 <a href="https://www.linkedin.com/in/rushikesh-gurav/"><img src="./cards/hero-header.svg" width="100%" alt="Rushikesh Gurav. Engineer working with AI agents, Cloud, and DevOps." /></a><br>
-<img src="./cards/heatmap.svg" width="100%" alt="Rushikesh's contribution graph, in royal maroon, refreshed daily" /><br>
+<img src="./cards/heatmap-graph.svg" width="100%" alt="Rushikesh's contributions over time, in royal maroon, refreshed daily" /><br>
 <img src="./cards/activity.svg" width="100%" alt="Contributions in the last 12 months, by month, with streak and busiest day" /><br>
 <a href="https://github.com/DevRushi-engg/AuditPilot"><img src="./cards/build.svg" width="33.333%" alt="AI &amp; AGENTS: Multi-Agent Copilot" /></a><a href="https://github.com/DevRushi-engg/IaC-Sentinal"><img src="./cards/brand.svg" width="33.333%" alt="CLOUD &amp; DEVOPS: Zero-Drift IaC" /></a><a href="https://github.com/DevRushi-engg?tab=repositories"><img src="./cards/learn.svg" width="33.333%" alt="SYSTEMS &amp; DSA: 850+ contributions" /></a><br>
 <picture><source media="(prefers-color-scheme: dark)" srcset="./cards/title-coding-dark.svg" /><img src="./cards/title-coding-light.svg" width="100%" alt="Featured Projects" /></picture><br>
